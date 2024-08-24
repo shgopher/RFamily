@@ -4,7 +4,7 @@
 print("hello world")
 
 # 2. R 语言的变量和数据类型
-x = 1
+x <- 1
 print(x)
 
 
