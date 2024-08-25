@@ -2,7 +2,7 @@
  * @Author: shgopher shgopher@gmail.com
  * @Date: 2024-08-18 11:40:13
  * @LastEditors: shgopher shgopher@gmail.com
- * @LastEditTime: 2024-08-25 09:25:48
+ * @LastEditTime: 2024-08-25 09:32:00
  * @FilePath: /RFamily/README.md
  * @Description: 
  * 
@@ -32,7 +32,6 @@ R 语言基础，R 语言数据分析，R 语言大数据
 - [wordcloud](./image/wordcloud/README.md) 和 [wordcloud2](./image/wordcloud2/README.md)：是用于可视化词云的包，其中 wordcloud 是静态可视化词云包，wordcloud2 是动态可视化词云包，词云图能够针对文本的出现次数进行可视化分析，充分吸引人们的注意力。
 ## 生物医学
 - [Bioconductor](./bio/bioconductor/README.md)：是一个专门为生物数据分析设计的 R 包集合，提供了许多用于基因表达分析、蛋白质分析、代谢物分析等的工具，拥有活跃的用户社区且会定期更新，还有丰富的学习资源。
-- [ggplot2](./bio/ggplot2/README.md)：基于图形语法的包，用于创建复杂且美观的统计图形，可用于展示生物医学研究中的各种数据，如基因表达数据、蛋白质相互作用等，网上有大量的教程资源。
 - [DESeq2](./bio/deseq2/README.md)：用于差异表达分析，特别适用于转录组测序数据，能够识别在不同条件下表达差异显著的基因。
 - [pheatmap](./bio/pheatmap/README.md)：主要用于绘制热图，可以将基因表达数据以颜色深浅的形式直观地展示出来，有助于快速观察数据的分布和差异。
 - [limma](./bio/limma/README.md)：可用于线性模型分析，在基因表达数据的差异表达分析方面应用广泛。
