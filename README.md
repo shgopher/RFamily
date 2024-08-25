@@ -30,7 +30,7 @@ R 语言基础，R 语言数据分析，R 语言大数据
 - [gganimate](./image/gganimate/README.md)：可以将 ggplot2 包的可视化图像转化成动画，动画图像不仅具有视觉上的冲击力，而且能够传递更多信息，可以对数据进行宏观分析。
 - [pheatmap](./image/pheatmap/README.md)：用于可视化静态的热力图，使用该包可视化静态热力图时，可以通过相关参数确定是否对数据进行聚类，从而获得聚类热力图，还可通过调整图形参数呈现不同的可视化结果。
 - [wordcloud](./image/wordcloud/README.md) 和 [wordcloud2](./image/wordcloud2/README.md)：是用于可视化词云的包，其中 wordcloud 是静态可视化词云包，wordcloud2 是动态可视化词云包，词云图能够针对文本的出现次数进行可视化分析，充分吸引人们的注意力。
-## 生物医学
+## 生物及临床医学
 - [Bioconductor](./bio/bioconductor/README.md)：是一个专门为生物数据分析设计的 R 包集合，提供了许多用于基因表达分析、蛋白质分析、代谢物分析等的工具，拥有活跃的用户社区且会定期更新，还有丰富的学习资源。
 - [DESeq2](./bio/deseq2/README.md)：用于差异表达分析，特别适用于转录组测序数据，能够识别在不同条件下表达差异显著的基因。
 - [pheatmap](./bio/pheatmap/README.md)：主要用于绘制热图，可以将基因表达数据以颜色深浅的形式直观地展示出来，有助于快速观察数据的分布和差异。
