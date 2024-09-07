@@ -2,7 +2,7 @@
  * @Author: shgopher shgopher@gmail.com
  * @Date: 2024-08-18 11:43:31
  * @LastEditors: shgopher shgopher@gmail.com
- * @LastEditTime: 2024-09-06 16:16:04
+ * @LastEditTime: 2024-09-07 16:13:34
  * @FilePath: /RFamily/helloR.md
  * @Description: 
  * 
@@ -81,8 +81,25 @@ print(a[1]) # 2 ; r 语言从 1 开始 !!!!
 向量就基本等于一个一维数组
 ### 列表 list
 一个可以存放不同类型的一维数组
+a = list(1,2,3)
+也可以使用 c() 创建
 ### 矩阵 matrix
 二维数组
+
+a = matrix(1:9，nrow = 3，ncol = 3)
+- data 向量，矩阵的数据
+- nrow 行数
+- ncol 列数
+- byrow 逻辑值，为 FALSE 按列排列，为 TRUE 按行排列
+- dimname 设置行和列的名称
+
+```r
+rownames = c("row1", "row2", "row3", "row4")
+colnames = c("col1", "col2", "col3")
+
+P <- matrix(c(3:14), nrow = 4, byrow = TRUE, dimnames = list(rownames, colnames))
+
+```
 ### 数组 array
 多维数组
 ### 因子 factor
@@ -128,3 +145,10 @@ for (i in 1:10){
 等于 go 中的 break
 
 ## 函数
+```r
+age = function(x,y) {
+  return x+y
+}
+```
+## 字符串
+r 使用单引号或者双引号作为字符串
