@@ -2,7 +2,7 @@
  * @Author: shgopher shgopher@gmail.com
  * @Date: 2024-08-18 11:43:31
  * @LastEditors: shgopher shgopher@gmail.com
- * @LastEditTime: 2024-09-05 23:58:19
+ * @LastEditTime: 2024-09-06 16:16:04
  * @FilePath: /RFamily/helloR.md
  * @Description: 
  * 
@@ -73,8 +73,58 @@ cat(a,b)
 - ceiling() 向上取整
 - floor() 向下取整
 ### 向量
+使用函数 c() 创建向量
+```r
+a = c(2,3,5) # 创建一个向量
+print(a[1]) # 2 ; r 语言从 1 开始 !!!!
+```
+向量就基本等于一个一维数组
 ### 列表 list
+一个可以存放不同类型的一维数组
 ### 矩阵 matrix
+二维数组
 ### 数组 array
+多维数组
 ### 因子 factor
 ### 数据框 data frame
+## 判断语句
+```r
+if () {
+
+}else if (){
+
+}else {
+
+}
+```
+## 循环语句
+-  repeat：等于 go 中的 for {} 用法
+- while：等于 go 中的 for 条件 {} 用法
+- for：等于 go 中的 for range
+
+```r
+# repeat
+repeat {
+  if (xx){
+    break
+  }
+} 
+
+# while
+
+while (xx > 0){
+xx --
+}
+
+# for
+for (i in 1:10){
+  print(i)
+}
+
+```
+### next
+等于 go 中的 continue
+### break
+等于 go 中的 break
+
+## 函数
