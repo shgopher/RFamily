@@ -2,7 +2,7 @@
  * @Author: shgopher shgopher@gmail.com
  * @Date: 2024-08-18 11:43:31
  * @LastEditors: shgopher shgopher@gmail.com
- * @LastEditTime: 2024-09-07 16:13:34
+ * @LastEditTime: 2024-09-07 16:55:43
  * @FilePath: /RFamily/helloR.md
  * @Description: 
  * 
@@ -103,7 +103,23 @@ P <- matrix(c(3:14), nrow = 4, byrow = TRUE, dimnames = list(rownames, colnames)
 ### 数组 array
 多维数组
 ### 因子 factor
+```r
+x = c("男", "女", "男", "男",  "女")
+sex = factor(x)
+print(sex)
+print(is.factor(sex))
+```
 ### 数据框 data frame
+
+```r
+table = data.frame(
+    姓名 = c("张三", "李四"),
+    工号 = c("001","002"),
+    月薪 = c(1000, 2000)
+)
+print(table) # 查看 table 数据
+```
+
 ## 判断语句
 ```r
 if () {
